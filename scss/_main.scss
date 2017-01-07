@@ -1,0 +1,92 @@
+/* variables */
+$dark: #282828;
+$blue: #31a5ff;
+$grey: #8b8b8b;
+$lightgrey: #f2f3f4;
+$white: #ffffff;
+
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background: $white;
+  font-family: 'Bebas Neue', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 1.2em!important;
+  line-height: 1.618em;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  //highlight color
+  ::selection {
+    background: $blue;
+    color: $white;
+  }
+  ::-moz-selection {
+    background: $blue;
+    color: $white;
+  }
+
+ // - - - - - - general styles
+  h1 {
+
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+  h4 {
+
+  }
+
+  h5 {
+
+  }
+  p {
+
+  }
+  a {
+
+
+    &:hover {
+
+    }
+  }
+  .button {
+
+    &:hover {
+
+    }
+  }
+  .contain {
+
+  }
+  section {
+    position: relative;
+  }
+}
+// - - - - - - end general styles
+
+// - - - - - - section styles
+// header styles
+
+
+
+@media (min-width: 1600px) {
+
+} /* @media */
+@media (max-width: 1599px) and (min-width: 1192px) {
+
+} /* @media */
+@media (max-width: 1191px) and (min-width: 1000px) {
+
+} /* @media */
+@media (max-width: 999px) and (min-width: 769px) {
+
+} /* @media */
+@media (max-width: 768px){
+
+} /* @media */

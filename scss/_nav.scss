@@ -1,0 +1,102 @@
+/* variables */
+$dark: #282828;
+$blue: #31a5ff;
+$grey: #8b8b8b;
+$lightgrey: #f2f3f4;
+$white: #ffffff;
+
+
+
+// nav styles
+a.logo {
+  padding: 10px;
+  display: block;
+  float: left;
+
+  .st0 {
+    fill: $lightgrey;
+    transition: ease all 0.2s;
+  }
+  svg {
+    height: 55px;
+  }
+}
+.navbutton {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  cursor: pointer;
+  transition: ease all 0.3s;
+
+  .bars {
+    height: 3px;
+    width: 100%;
+    display: block;
+    background: $lightgrey;
+    border-radius: 1.5px;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    transition: ease all 0.2s;
+
+    &:before {
+      content: "";
+      width: 65%;
+      height: 100%;
+      background: $lightgrey;
+      border-radius: 2px;
+      position: absolute;
+      top: -11px;
+      right: 0;
+      transition: ease all 0.2s;
+    }
+    &:after {
+      content: "";
+      width: 65%;
+      height: 100%;
+      background: $lightgrey;
+      border-radius: 2px;
+      position: absolute;
+      top: 11px;
+      left: 0;
+      transition: ease all 0.2s;
+    }
+  }
+  &:hover .bars {
+    opacity: 1;
+    transition: ease all 0.2s;
+
+    &:before, &:after {
+      width: 100%;
+    }
+  }
+}
+/* menu icon after click */
+.navbutton.nav-open {
+  position: absolute;
+
+  .bars {
+    opacity: 0.6;
+    transform: rotate(45deg) scale(0.6);
+
+    &:before {
+      width: 100%;
+      top: 0px;
+      transform: rotate(90deg);
+    }
+    &:after {
+      width: 100%;
+      top: 0px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+
+
+
+@media (max-width: 768px){
+
+} /* @media */
