@@ -17,7 +17,7 @@
 		"oA": 0,
 		"oAP": "\/css\/animate.min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/animate.min.css": {
 		"aP": 1,
@@ -27,7 +27,7 @@
 		"oA": 0,
 		"oAP": "\/css\/animate.min.min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/bulma.min.css": {
 		"aP": 1,
@@ -47,7 +47,7 @@
 		"oA": 0,
 		"oAP": "\/css\/font-awesome.min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/font-awesome.min.css": {
 		"aP": 1,
@@ -57,7 +57,7 @@
 		"oA": 0,
 		"oAP": "\/css\/font-awesome.min.min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/styles.css": {
 		"aP": 1,
@@ -67,7 +67,7 @@
 		"oA": 0,
 		"oAP": "\/css\/styles.min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/styles.min.css": {
 		"aP": 1,
@@ -125,19 +125,19 @@
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
+	"\/img\/aboutme.jpg": {
+		"ft": 16384,
+		"iS": 295975,
+		"oA": 0,
+		"oAP": "\/img\/aboutme.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/circle.png": {
 		"ft": 32768,
 		"iS": 21504,
 		"oA": 0,
 		"oAP": "\/img\/circle.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/logo-small.png": {
-		"ft": 32768,
-		"iS": 8249,
-		"oA": 0,
-		"oAP": "\/img\/logo-small.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -253,6 +253,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/rellax.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/rellax.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/script.js": {
 		"ft": 64,
 		"mi": 1,
@@ -288,6 +297,30 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/scss\/_form.scss": {
 		"aP": 1,
@@ -535,6 +568,26 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/scss\/bulma\/css\/box.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/bulma\/css\/box.min.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/scss\/bulma\/css\/variables.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/bulma\/css\/variables.min.min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/scss\/bulma\/elements\/_all.sass": {
 		"aP": 1,
@@ -881,7 +934,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 505501848,
-	"displayValue": "new",
+	"displayValue": "personal",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr"
 	},

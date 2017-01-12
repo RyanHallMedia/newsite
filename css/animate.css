@@ -3345,3 +3345,40 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+
+
+
+/* custom animation */
+@-webkit-keyframes slideInDownLine {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideInDownLine {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideInDownLine {
+  -webkit-animation-name: slideInDownLine;
+  animation-name: slideInDownLine;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
