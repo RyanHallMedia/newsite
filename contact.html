@@ -172,7 +172,7 @@
               </div>
             </div>
             <!-- button -->
-            <button type="submit" class="buttonbox">
+            <button type="submit" class="is-disabled submit buttonbox">
               <span class="text">Let's Talk</span>
               <span class="box"></span>
             </button>
@@ -215,6 +215,46 @@
   <script src="js/jquery.scrollme.min.js" type="text/javascript"></script>
   <!-- fixes styles for older browsers (all) -->
   <script src="js/modernizr-custom.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#fname').on('focusout', function(){
+        if( $(this).val().length === 0 ) {
+            $(this).addClass('warning');
+            $('.form').removeClass('name');
+        } else {
+          $(this).removeClass('warning');
+          $('.form').addClass('name');
+        }
+      });
+      $('#email').on('focusout', function(){
+        if( $(this).val().length === 0 ) {
+            $(this).addClass('warning');
+            $('form').removeClass('email');
+        } else {
+          $(this).removeClass('warning');
+          $('.form').addClass('email');
+        }
+      });
+      $('#message').on('focusout', function(){
+        if( $(this).val().length === 0 ) {
+            $(this).addClass('warning');
+            $('.form').removeClass('comment');
+        } else {
+          $(this).removeClass('warning');
+          $('.form').addClass('comment');
+        }
+      });
+
+      $('.input').on('focusout', function(){
+        if( $('.form').is('email, .name, .comment')) {
+            $('.submit').removeClass('is-disabled');
+        } else {
+          $('.submit').addClass('is-disabled');
+        }
+      });
+    });
+  </script>
 
   <!-- google -->
   <script>

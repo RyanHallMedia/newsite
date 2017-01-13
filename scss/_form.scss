@@ -41,6 +41,9 @@ section {
   	color: $dark;
     font-size: 18px;
   }
+  input.input.warning {
+    border-bottom: 1px solid red;
+  }
   input.input:focus {
   	 outline: none;
    }
