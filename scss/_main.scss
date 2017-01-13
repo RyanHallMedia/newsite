@@ -10,7 +10,7 @@ $white: #ffffff;
 body {
   height: 100%;
   width: 100%;
-  margin-bottom: 280px;
+  margin-bottom: 278px;
   background: $white;
   line-height: 1.618em;
   position: relative;
@@ -19,12 +19,12 @@ body {
 
   //highlight color
   ::selection {
-    background: $blue;
-    color: $white;
+    background: transparent;
+    color: $blue;
   }
   ::-moz-selection {
-    background: $blue;
-    color: $white;
+    background: transparent;
+    color: $blue;
   }
 
  // - - - - - - general styles
@@ -113,9 +113,12 @@ body {
     color: $grey;
     letter-spacing: 0.06em;
   }
-  a.buttonbox {
+  .buttonbox {
+    padding: 0;
     margin: 55px 0 0 0;
     display: inline-block;
+    background: transparent;
+    border: none;
     position: relative;
 
     .text {
@@ -143,6 +146,7 @@ body {
     &:hover {
 
       .text {
+        cursor: pointer;
         background: $blue;
         color: $white;
       }
@@ -197,9 +201,21 @@ body {
     margin: 0px auto;
   }
   section {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto!important;
     background: $white;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
     position: relative;
+    transition: ease all 0.3s;
     z-index: 2;
+  }
+  section.borders {
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 10px solid $blue;
+    border-left: 10px solid $blue;
   }
   .info {
     position: relative;
@@ -242,15 +258,24 @@ body {
 
 // - - - - - - section styles
 // header styles
-header {
+header.intro {
   height: 100vh;
   min-height: 500px;
+}
+header.small {
+  height: 85vh;
+  min-height: 500px;
+}
+header {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   background: $white;
+  border: 10px solid $white;
+  border-top: 0;
+  border-bottom: 0;
   z-index: 2;
 
   a.email {
@@ -306,12 +331,16 @@ header {
     }
   }
   .is-overlay {
+    margin-right: -10px;
+    margin-left: -10px;
     border: 0px solid $blue;
+    border-bottom: 0px solid transparent;
     z-index: 2;
     transition: ease all 0.3s;
   }
   .is-overlay.border {
     border: 10px solid $blue;
+    border-bottom: 0px solid transparent;
   }
 }
 // end header styles
@@ -343,6 +372,7 @@ header {
         }
       }
       .workinfo {
+        z-index: 2;
 
         .worklayer {
           display: inline-block;

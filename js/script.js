@@ -94,8 +94,11 @@ $(document).ready(function(){
 		$('.linediv').removeClass("preanimate");
 	}, 600);
 	setTimeout(function(){
-		$('.is-overlay').addClass('animated fadeIn border');
+		$('.is-overlay').addClass('animated border');
 		$('.is-overlay').removeClass("preanimate");
+	}, 900);
+	setTimeout(function(){
+		$('section').addClass('borders');
 	}, 900);
 	setTimeout(function(){
 		$('.info h2').addClass('animated fadeIn');
@@ -125,6 +128,10 @@ $(document).ready(function(){
 		$('.linedown').addClass('animated fadeInDown');
 		$('.linedown').removeClass("preanimate");
 	}, 3600);
+	setTimeout(function(){
+		$('.form-set').addClass('animated fadeIn');
+		$('.form-set').removeClass("preanimate");
+	}, 3400);	
 
 
   //animations on scroll

@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/animate.css": {
 		"aP": 1,
 		"bl": 0,
@@ -76,6 +82,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/styles.min.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/work.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/work.min.min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -302,6 +318,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/mailer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mailer.php",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -926,6 +948,31 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/scss\/work.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/work.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/success.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/success.html",
+		"oF": 0
+		},
+	"\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work.html",
+		"oF": 0
 		}
 	},
 "hooks": [
