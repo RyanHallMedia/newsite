@@ -173,11 +173,67 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/Yarn-Cover.jpg": {
+	"\/img\/work1.jpg": {
 		"ft": 16384,
-		"iS": 169783,
+		"iS": 185452,
 		"oA": 0,
-		"oAP": "\/img\/Yarn-Cover.jpg",
+		"oAP": "\/img\/work1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/work2.jpg": {
+		"ft": 16384,
+		"iS": 113734,
+		"oA": 0,
+		"oAP": "\/img\/work2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/work3.jpg": {
+		"ft": 16384,
+		"iS": 95900,
+		"oA": 0,
+		"oAP": "\/img\/work3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/work4.jpg": {
+		"ft": 16384,
+		"iS": 58327,
+		"oA": 0,
+		"oAP": "\/img\/work4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/work5.jpg": {
+		"ft": 16384,
+		"iS": 128810,
+		"oA": 0,
+		"oAP": "\/img\/work5.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/work6.jpg": {
+		"ft": 16384,
+		"iS": 315457,
+		"oA": 0,
+		"oAP": "\/img\/work6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/work7.jpg": {
+		"ft": 16384,
+		"iS": 375861,
+		"oA": 0,
+		"oAP": "\/img\/work7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/work8.jpg": {
+		"ft": 16384,
+		"iS": 274589,
+		"oA": 0,
+		"oAP": "\/img\/work8.jpg",
 		"oF": 0,
 		"opt": 0
 		},

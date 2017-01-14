@@ -364,8 +364,10 @@ header {
           transition: ease all 0.2s;
         }
         .duties {
+          padding: 2px 5px;
           display: inline-block;
           color: $dark;
+          opacity: 1;
           position: relative;
           top: -3em;
           transition: ease all 0.2s;
@@ -400,10 +402,11 @@ header {
         .workimage {
 
           .image {
-            box-shadow: 0px 0px 0 $lightgrey;
+            box-shadow: 0 0 20px $lightgrey;
           }
           .duties {
             top: 0.5em;
+            opacity: 0.85;
           }
         }
       }
