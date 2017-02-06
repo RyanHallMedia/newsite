@@ -215,8 +215,8 @@ body {
   section.borders {
     padding-right: 0;
     padding-left: 0;
-    border-right: 10px solid $blue;
-    border-left: 10px solid $blue;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
   }
   .info {
     position: relative;
@@ -287,7 +287,7 @@ header {
     letter-spacing: 0.06em;
     position: absolute;
     top: 50%;
-    right: -65px;
+    right: -75px;
     transform: translateY(-50%) rotate(270deg);
     z-index: 4;
     transition: ease all 0.2s;
@@ -340,7 +340,7 @@ header {
     transition: ease all 0.3s;
   }
   .is-overlay.border {
-    border: 10px solid $blue;
+    // border: 10px solid $blue;
     border-bottom: 0px solid transparent;
   }
 }

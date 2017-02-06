@@ -21,7 +21,7 @@ $white: #ffffff;
 
     // nav styles
     a.logo {
-      padding: 20px 35px;
+      padding: 20px 30px;
       display: block;
       float: left;
       transition: ease all 0.2s;
@@ -130,7 +130,7 @@ $white: #ffffff;
     box-shadow: 0 0px 15px rgba($dark, 0.10);
 
     a.logo {
-      padding: 10px 25px 5px 25px;
+      padding: 10px 25px 5px 30px;
       display: block;
       float: left;
 
@@ -265,12 +265,12 @@ nav {
 
         &:after {
           content: "";
-          height: 1px;
+          height: 0px;
           width: 100%;
           background: $grey;
           position: absolute;
           left: 0;
-          bottom: 6px;
+          bottom: -2px;
           transition: ease all 0.2s;
         }
         &:hover {
@@ -280,7 +280,7 @@ nav {
           &:after {
             height: 2px!important;
             background: $dark;
-            bottom: -8px;
+            bottom: 6px;
           }
         }
       }
@@ -291,7 +291,7 @@ nav {
         &:after {
           height: 2px!important;
           background: $dark;
-          bottom: -8px;
+          bottom: 6px;
         }
       }
     }
@@ -305,5 +305,7 @@ nav {
 
 } /* @media */
 @media (max-width: 768px){
-
+  .nav-group .side-nav ul li.social a {
+    padding: 1.168em .5em!important;
+  }
 } /* @media */
