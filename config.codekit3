@@ -7,9 +7,10 @@
 		"uuidString": "178BA021-5030-4A62-8E95-1D7944A67852"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "26148",
 "files": {
 	"\/contact.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact.html",
@@ -85,13 +86,8 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
 	"\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.eot",
@@ -108,24 +104,28 @@
 		"prP": 0
 		},
 	"\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome.otf",
@@ -137,7 +137,9 @@
 		"oA": 0,
 		"oAP": "\/img\/aboutme.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/circle.png": {
 		"ft": 32768,
@@ -145,7 +147,10 @@
 		"oA": 0,
 		"oAP": "\/img\/circle.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo.png": {
 		"ft": 32768,
@@ -153,7 +158,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
@@ -171,7 +179,10 @@
 		"oA": 0,
 		"oAP": "\/img\/ryan.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work1.jpg": {
 		"ft": 16384,
@@ -179,7 +190,19 @@
 		"oA": 0,
 		"oAP": "\/img\/work1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/work10.jpg": {
+		"ft": 16384,
+		"iS": 286030,
+		"oA": 0,
+		"oAP": "\/img\/work10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/work2.jpg": {
 		"ft": 16384,
@@ -187,7 +210,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work2.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/work3.jpg": {
 		"ft": 16384,
@@ -195,7 +220,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/work4.jpg": {
 		"ft": 16384,
@@ -203,7 +230,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/work5.jpg": {
 		"ft": 16384,
@@ -211,7 +240,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work5.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/work6.jpg": {
 		"ft": 16384,
@@ -219,7 +250,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work6.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/work7.jpg": {
 		"ft": 16384,
@@ -227,7 +260,9 @@
 		"oA": 0,
 		"oAP": "\/img\/work7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/work8.jpg": {
 		"ft": 16384,
@@ -235,9 +270,22 @@
 		"oA": 0,
 		"oAP": "\/img\/work8.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/work9.jpg": {
+		"ft": 16384,
+		"iS": 181297,
+		"oA": 0,
+		"oAP": "\/img\/work9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -245,6 +293,7 @@
 		},
 	"\/js\/jquery-2.1.3.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-2.1.3.min.min.js",
@@ -254,6 +303,7 @@
 		},
 	"\/js\/jquery.scrollme.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.scrollme.min.js",
@@ -263,6 +313,7 @@
 		},
 	"\/js\/jquery.scrollme.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.scrollme.min.min.js",
@@ -272,6 +323,7 @@
 		},
 	"\/js\/jquery.scrollto.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.scrollto.min.js",
@@ -281,6 +333,7 @@
 		},
 	"\/js\/jquery.scrollto.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.scrollto.min.min.js",
@@ -290,6 +343,7 @@
 		},
 	"\/js\/modernizr-custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/modernizr-custom.min.js",
@@ -299,6 +353,7 @@
 		},
 	"\/js\/modernizr-custom.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/modernizr-custom.min.min.js",
@@ -308,6 +363,7 @@
 		},
 	"\/js\/rellax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/rellax.min.js",
@@ -317,6 +373,7 @@
 		},
 	"\/js\/rellax.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/rellax.min.min.js",
@@ -326,6 +383,7 @@
 		},
 	"\/js\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/script.min.js",
@@ -335,6 +393,7 @@
 		},
 	"\/js\/script.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/script.min.min.js",
@@ -344,6 +403,7 @@
 		},
 	"\/js\/scrolltotwo.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scrolltotwo.min.js",
@@ -353,6 +413,7 @@
 		},
 	"\/js\/scrolltotwo.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scrolltotwo.min.min.js",
@@ -361,22 +422,24 @@
 		"tS": 0
 		},
 	"\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
 	"\/mailer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/mailer.php",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -462,7 +525,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/generic.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -475,7 +538,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/helpers.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -488,7 +551,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/minireset.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -514,7 +577,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/card.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -527,7 +590,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/level.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -540,7 +603,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/media.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -553,7 +616,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/menu.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -566,7 +629,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/message.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -579,7 +642,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/modal.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -592,7 +655,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/nav.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -605,7 +668,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/pagination.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -618,7 +681,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/panel.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -631,7 +694,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/tabs.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -677,7 +740,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/box.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -690,7 +753,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/button.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -703,7 +766,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/content.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -716,7 +779,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/form.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -729,7 +792,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/icon.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -742,7 +805,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/image.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -755,7 +818,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/notification.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -768,7 +831,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/other.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -781,7 +844,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/progress.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -794,7 +857,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/table.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -807,7 +870,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/tag.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -820,7 +883,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/title.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -846,7 +909,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/columns.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -859,7 +922,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/tiles.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -885,7 +948,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/footer.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -898,7 +961,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/hero.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -911,7 +974,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/section.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -937,7 +1000,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/controls.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -950,7 +1013,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/functions.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -963,7 +1026,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/mixins.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -976,7 +1039,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/scss\/bulma\/css\/variables.min.css",
 		"oF": 0,
 		"oS": 3,
@@ -1009,12 +1072,14 @@
 		"uL": 1
 		},
 	"\/success.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/success.html",
 		"oF": 0
 		},
 	"\/work.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/work.html",
@@ -1433,6 +1498,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1440,6 +1509,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1537,6 +1610,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1553,9 +1630,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1613,9 +1698,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1645,6 +1730,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1654,14 +1743,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1685,6 +1766,10 @@
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-caller": {
 			"active": 0,
 			"optionString": ""
@@ -1699,6 +1784,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1901,6 +1990,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1978,6 +2071,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2177,6 +2274,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2213,6 +2314,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2228,6 +2333,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2277,6 +2386,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2317,11 +2430,19 @@
 			"active": 0,
 			"optionString": "'safe'"
 			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2725,7 +2846,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2758,6 +2880,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2768,7 +2891,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2792,21 +2916,14 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2838,13 +2955,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2853,7 +2970,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2861,7 +2979,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2871,7 +2991,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2899,7 +3020,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2946,9 +3068,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

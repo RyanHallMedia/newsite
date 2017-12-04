@@ -114,6 +114,10 @@ body {
     color: $grey;
     letter-spacing: 0.06em;
   }
+  .blue {
+    color: $dark;
+    font-style: italic;
+  }
   .buttonbox {
     padding: 0;
     margin: 55px 0 0 0;
@@ -353,6 +357,7 @@ header {
 
     .workview {
       align-items: center;
+      margin-bottom: 4rem;
 
       .workimage {
 
@@ -370,7 +375,7 @@ header {
           color: $dark;
           opacity: 1;
           position: relative;
-          top: -3em;
+          top: 0.5em;
           transition: ease all 0.2s;
         }
       }
@@ -419,7 +424,7 @@ header {
         width: 54%;
 
         .duties {
-          left: calc(100% - 565px);
+          left: calc(100% - 537px);
         }
       }
       .workinfo {
@@ -429,7 +434,7 @@ header {
         h4 {
           display: inline-block;
           position: relative;
-          right: 65px;
+          // right: 65px;
           transition: ease all 0.2s;
         }
         p {
@@ -453,7 +458,7 @@ header {
         width: 54%;
 
         .duties {
-          right: calc(100% - 565px);
+          right: calc(100% - 537px);
         }
       }
       .workinfo {
@@ -462,7 +467,7 @@ header {
 
         h4 {
           position: relative;
-          left: 65px;
+          // left: 65px;
           transition: ease all 0.2s;
         }
         p {
@@ -668,7 +673,7 @@ footer {
             float: right;
             display: inline-block;
             position: relative;
-            top: -2.5em;
+
           }
         }
       }
@@ -679,7 +684,7 @@ footer {
           width: 58%;
 
           .duties {
-            padding-left: 15px;
+            padding-left: 0px;
             left: 0;
           }
         }
@@ -695,7 +700,7 @@ footer {
           width: 58%;
 
           .duties {
-            padding-right: 15px;
+            padding-right: 0px;
             right: 0;
           }
         }
@@ -773,7 +778,7 @@ footer {
             float: right;
             display: inline-block;
             position: relative;
-            top: -2.5em;
+
           }
         }
       }
@@ -784,7 +789,7 @@ footer {
           width: 58%;
 
           .duties {
-            padding-left: 15px;
+            padding-left: 0px;
             left: 0;
           }
         }
@@ -800,7 +805,7 @@ footer {
           width: 58%;
 
           .duties {
-            padding-right: 15px;
+            padding-right: 0px;
             right: 0;
           }
         }
@@ -925,6 +930,7 @@ footer {
       padding: 65px 15px;
 
       .workview {
+        margin-bottom: 0;
 
         .workimage {
 
@@ -936,17 +942,21 @@ footer {
           .duties {
             width: 100%;
             max-width: 537px;
+            padding: 15px;
             float: right;
             display: inline-block;
-            background: $white;
+            background: transparent;
             position: relative;
-            top: -2.5em;
           }
         }
         .workinfo {
 
           .worklayer {
             display: block;
+
+            .lower {
+              padding-top: 30px;
+            }
           }
         }
       }
@@ -957,7 +967,7 @@ footer {
           width: 100%;
 
           .duties {
-            padding-left: 15px;
+            padding-left: 0px;
             left: 0;
           }
         }
@@ -983,7 +993,7 @@ footer {
           width: 100%;
 
           .duties {
-            padding-right: 15px;
+            padding-right: 0px;
             right: 0;
           }
         }
